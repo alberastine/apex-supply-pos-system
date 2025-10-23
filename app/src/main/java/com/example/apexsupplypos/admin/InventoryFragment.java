@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.apexsupplypos.R;
 import com.example.apexsupplypos.models.ItemModel;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -108,7 +109,7 @@ public class InventoryFragment extends Fragment implements InventoryAdapter.OnIt
         TextInputEditText etStockQuantity = dialogView.findViewById(R.id.etStockQuantity);
         TextInputEditText etPrice = dialogView.findViewById(R.id.etPrice);
         TextInputEditText etCategory = dialogView.findViewById(R.id.etCategory);
-        FloatingActionButton btnSaveItem = dialogView.findViewById(R.id.btnSaveItem);
+        MaterialButton btnSaveItem = dialogView.findViewById(R.id.btnSaveItem);
 
         if (itemToEdit != null) {
             // dialogTitle.setText(R.string.update_item);
