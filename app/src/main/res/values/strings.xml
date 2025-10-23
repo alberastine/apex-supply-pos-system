@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apex Supply</string>
+    <string name="sign_in">Sign in to your account</string>
+    <string name="create_account">Create an account</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="inventory_tab">Inventory</string>
+    <string name="pricing_tab">Pricing</string>
+    <string name="reports_tab">Reports</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_name_hint">Item Name</string>
+    <string name="serial_number_hint">Serial Number (optional)</string>
+    <string name="stock_quantity_hint">Stock Quantity</string>
+    <string name="price_hint">Price</string>
+    <string name="category_hint">Category</string>
+    <string name="save_item">Save Item</string>
+    <string name="search_items">Search Items</string>
+    <string name="checkout">Checkout</string>
+    <string name="share_receipt">Share Receipt</string>
+    <string name="logout">Logout</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="user_sales_interface">User Sales Interface</string>
+    <string name="overall_total_sales">Overall Total Sales: $0.00</string>
+    <string name="today_s_sales">Today\'s Sales: $0.00</string>
+    <string name="last_7_days_sales">Last 7 Days Sales: $0.00</string>
+    <string name="add_discount_rule">Add Discount Rule</string>
+    <string name="discount_rule_name">Rule Name</string>
+    <string name="applies_to_category_hint">Applies to Category (leave empty for all)</string>
+    <string name="minimum_quantity_hint">Minimum Quantity</string>
+    <string name="percentage_discount_hint">Percentage Discount (e.g., 0.10 for 10%)</string>
+    <string name="fixed_discount_hint">Fixed Discount (e.g., 5.00 for $5 off)</string>
+    <string name="active_discount_rule">Active Discount Rule</string>
+    <string name="save_rule">Save Rule</string>
+    <string name="rule_name">Rule Name:</string>
+    <string name="category">Category:</string>
+    <string name="min_qty">Min Qty:</string>
+    <string name="percentage">Percentage:</string>
+    <string name="fixed_amount">Fixed Amount:</string>
+    <string name="active">Active:</string>
+    <string name="update_item">Update Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="item_details">Item Details</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="customer_name_optional">Customer Name (Optional)</string>
+</resources>
