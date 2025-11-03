@@ -26,6 +26,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def appName = "ApexSupplyPOS"
+            def versionName = variant.versionName
+            outputFileName = "${appName}-v${versionName}.apk"
+        }
+    }
 }
 
 dependencies {
